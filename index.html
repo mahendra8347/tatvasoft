@@ -6,13 +6,33 @@
     <!-- important meta tags -->
     <meta charset="utf-8">
     <meta http-eqiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scal=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- title -->
     <title>Solo-Creative Website</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon/favicon.ico">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,600&family=Raleway:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+
+    <!-- Bootstrap Css    -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+
+    <!-- Owl-carousel -->
+    <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
+
+    <!-- Responsive Tabs -->
+    <link rel="stylesheet" href="css/responsive-tabs/responsive-tabs.css">
+    
+    <!-- Megnific Popup --> 
+    <link rel="stylesheet" href="css/megnific-popup/magnific-popup.css">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
@@ -21,18 +41,840 @@
 </head>
 
 <body>
-    <!-- Example Markup -->
-    <h1>
-        Welcome To Solo!
-    </h1>
 
-    <p>This paragraph </p>
 
-    <div>
-        <p>
-            this is paragraph in div
-        </p>
+    <!-- Preloader  -->
+    <div id="preloader">
+        <div id="status">&nbsp;</div>
     </div>
-</body>
 
-</html>
+    <!-- Home -->
+    <section id="home">
+
+        <!-- Backgroung Video -->
+        <video id="home-bg-video" poster="video/solo.jpg" autoplay loop muted>
+            <source src="video/solo.mp4" type="video/mp4">
+            <source src="video/solo.ogv" type="video/ogg">
+            <source src="video/solo.webm" type="video/webm">
+        </video>
+
+        <!-- Overlay -->
+        <div id="home-overlay"></div>
+
+        <!-- Home Content -->
+        <div id="home-content">
+
+            <div id="home-content-inner" class="text-center">
+
+                <div id="home-heading">
+                    <h1 id="home-heding-1">Digital</h1><br>
+                    <h1 id="home-heding-2">Creative <span>Agency</span></h1>
+                </div>
+
+                <div id="home-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore et rerum quo blanditiis.</p>
+                </div>
+
+                <div id="home-btn">
+                    <a class="btn btn-general btn-home" href="#about" title="Start Now" role="button">Start Now</a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Arrow Down -->
+        <a href="#about" id="arrow-down">
+            <i class="fa fa-angle-down"></i>
+        </a>
+
+    </section>
+    <!-- Home Ends -->
+
+    <!-- About -->
+    <section id="about">
+
+        <!-- About 01 -->
+        <div id="about-01">
+
+            <div class="content-box-lg">
+
+                <div class="container">
+
+                    <div class="row">
+
+                        <!-- About Left -->
+                        <div class="col-md-6">
+
+                            <div id="about-left">
+                                <div class="vertical-heading">
+                                    <h5>Who We Are</h5>
+                                    <h2>A <strong>Story</strong><br>About Us</h2>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- About Right -->
+                        <div class="col-md-6">
+
+                            <div id="about-right">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores impedit itaque, consectetur beatae quis! Aperiam mollitia ipsum ab. Veritatis quisquam soluta consectetur obcaecati dolorum illum sint quod unde consequuntur dolores.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum porro repudiandae, laboriosam et, omnis consectetur perspiciatis, asperiores quaerat laborum mollitia inventore praesentium molestiae ex? Voluptatem repudiandae illum reprehenderit doloribus explicabo.</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- About Bottom -->
+                    <div class="row">
+
+                        <div class="col-md-12">
+
+                            <div id="about-bottom">
+                                <img src="img/about/about.png" alt="About Us" class="img-responsive">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- About 01 End -->
+
+        <!-- About 02 -->
+        <div id="about-02">
+
+            <div class="content-box-md">
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+
+                            <div class="about-item text-center">
+                                <i class="fa fa-rocket"></i>
+                                <h3>Mission</h3>
+                                <hr>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, qui delectus rem adipisci as.Eveniet, qui delectus rem adipisci as.</p>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="about-item text-center">
+                                <i class="fa fa-eye"></i>
+                                <h3>Vision</h3>
+                                <hr>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, qui delectus rem adipisci as.Eveniet, qui delectus rem adipisci as.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="about-item text-center">
+                                <i class="fa fa-pencil"></i>
+                                <h3>Passion</h3>
+                                <hr>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, qui delectus rem adipisci as.Eveniet, qui delectus rem adipisci as.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- About 02 End -->
+
+    </section>
+    <!-- About Ends -->
+
+    <!-- Team -->
+    <section id="team">
+        <div class="content-box-lg">
+
+            <div class="container">
+
+                <!-- Team Members -->
+                <div class="row">
+
+                    <!-- Team Left Side -->
+                    <div class="col-md-6">
+
+                        <div id="team-left">
+
+                            <div class="vertical-heading">
+                                <h5>Who We Are</h5>
+                                <h2>Meet Our<br> <strong>Talented</strong>Team</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sit veritatis, delectus nostrum esse ut culpa at nisi modi quos sapiente alias natus quam odio tempore dolore, laborum, neque minima!</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Team Right Side -->
+                    <div class="col-md-6">
+
+                        <div id="team-members" class="owl-carousel owl-theme">
+
+                            <!-- Member 01 -->
+                            <div class="team-member">
+                                <img src="img/team/team-1.jpg" alt="team member" class="img-responsive">
+                                <div class="team-member-overlay">
+                                    <div class="team-member-info text-center">
+                                        <h6>Kevin Greer</h6>
+                                        <p>Web Designer</p>
+                                        <ul class="social-list">
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Member 02 -->
+                            <div class="team-member">
+                                <img src="img/team/team-2.jpg" alt="team member" class="img-responsive">
+                                <div class="team-member-overlay">
+                                    <div class="team-member-info text-center">
+                                        <h6>Christian Clins</h6>
+                                        <p>Web Developer</p>
+                                        <ul class="social-list">
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Member 03 -->
+                            <div class="team-member">
+                                <img src="img/team/team-3.jpg" alt="team member" class="img-responsive">
+                                <div class="team-member-overlay">
+                                    <div class="team-member-info text-center">
+                                        <h6>Andrea Arkov</h6>
+                                        <p>Senior Developer</p>
+                                        <ul class="social-list">
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Member 04 -->
+                            <div class="team-member">
+                                <img src="img/team/team-4.jpg" alt="team member" class="img-responsive">
+                                <div class="team-member-overlay">
+                                    <div class="team-member-info text-center">
+                                        <h6>Harold Houdin</h6>
+                                        <p>Art Director</p>
+                                        <ul class="social-list">
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Member 05 -->
+                            <div class="team-member">
+                                <img src="img/team/team-5.jpg" alt="team member" class="img-responsive">
+                                <div class="team-member-overlay">
+                                    <div class="team-member-info text-center">
+                                        <h6>Angela Perry</h6>
+                                        <p>Manager</p>
+                                        <ul class="social-list">
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Member 06 -->
+                            <div class="team-member">
+                                <img src="img/team/team-6.jpg" alt="team member" class="img-responsive">
+                                <div class="team-member-overlay">
+                                    <div class="team-member-info text-center">
+                                        <h6>Kara Kubs</h6>
+                                        <p>Marketing & Sales</p>
+                                        <ul class="social-list">
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div id="progress-elements">
+                    <!-- Progress Bars -->
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <!-- Skill 01 -->
+                            <div class="skill">
+                                <h4>Web Design</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                                        <span>95%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <!-- Skill 02 -->
+                            <div class="skill">
+                                <h4>Photoshop/Illustration</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                                        <span>75%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <!-- Skill 01 -->
+                            <div class="skill">
+                                <h4>Web Development</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                                        <span>75%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <!-- Skill 01 -->
+                            <div class="skill">
+                                <h4>Digital Marketing</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                                        <span>90%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Team Ends -->
+
+    <!-- Statemnt -->
+    <section id="statement">
+
+        <div class="content-box-lg">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="tech-statement" class="text-center">
+
+                            <h3><i class="fa fa-quote-left"></i>We design and develop sevices for customers of all size, <br>
+                                specializing in creating stylish, modern websites and online stores.<i class="fa fa-quote-right"></i></h3>
+                            <P>- Daniel Watrous -</P>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Statement Ends -->
+
+    <!-- Services -->
+    <section id="services">
+
+        <!-- services 01 -->
+        <div id="services-01">
+            <div class="content-box-lg">
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="horizontal-heading text-center">
+                                <h5>What We Do</h5>
+                                <h2>Our Services</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-7">
+                            <img src="img/services/laptop-lamp.png" alt="laptop" class="img-responsive">
+                        </div>
+                        <div class="col-md-5">
+
+                            <!-- Service 01 -->
+                            <div class="service">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="icon text-right">
+                                            <i class="fa fa-paint-brush"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <h5>Srvice 01</h5>
+                                        <h4>Web Design</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ipsam iusto odio? Debitis esse quia assumenda uia assumenda.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Service 02 -->
+                            <div class="service">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="icon text-right">
+                                            <i class="fa fa-laptop"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <h5>Srvice 02</h5>
+                                        <h4>Web Development</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ipsam iusto odio? Debitis esse quia assumenda uia assumenda.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Service 03 -->
+                            <div class="service">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="icon text-right">
+                                            <i class="fa fa-paper-plane-o"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <h5>Srvice 03</h5>
+                                        <h4>Digital Marketing</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ipsam iusto odio? Debitis esse quia assumenda uia assumenda.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Services 01 Ends -->
+
+        <!-- services 02 -->
+        <div id="services-02">
+            <div class="content-box-md">
+                <div id="services-tabs">
+                    <ul class="text-center">
+                        <li><a href="#service-tab-1">Creativity</a></li>
+                        <li><a href="#service-tab-2">Strategy</a></li>
+                        <li><a href="#service-tab-3">Design</a></li>
+                        <li><a href="#service-tab-4">Development</a></li>
+                    </ul>
+
+                    <!-- service Tab 01 -->
+                    <div id="service-tab-1" class="service-tab">
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="img/services/service-tab-img-01.jpg" class="img-responsive" alt="Creativity">
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="tab-bg">
+                                        <h2>01</h2>
+                                        <h3>Get More From Life With Creativity.</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, voluptate quidem quisquam, necessitatibus perferendis nostrum repellendus inventore possimus rem, neque omnis impedit minus officiis cumque, ipsam alias tempore hic nesciunt.</p>
+
+                                        <div id="services-02-btn">
+                                            <a class="btn btn-general btn-yellow" href="#services" title="Get In Tuch" role="button">Get In Tuch</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- service Tab 02 -->
+                    <div id="service-tab-2" class="service-tab">
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="img/services/service-tab-img-02.jpg" class="img-responsive" alt="Strategy">
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="tab-bg">
+                                        <h2>02</h2>
+                                        <h3>The Home Of Strategy.</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, voluptate quidem quisquam, necessitatibus perferendis nostrum repellendus inventore possimus rem, neque omnis impedit minus officiis cumque, ipsam alias tempore hic nesciunt.</p>
+
+                                        <div id="services-02-btn">
+                                            <a class="btn btn-general btn-yellow" href="#services" title="Get In Tuch" role="button">Get In Tuch</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- service Tab 03 -->
+                    <div id="service-tab-3" class="service-tab">
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="img/services/service-tab-img-03.jpg" class="img-responsive" alt="Design">
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="tab-bg">
+                                        <h2>03</h2>
+                                        <h3>Design To Play It Safe.</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, voluptate quidem quisquam, necessitatibus perferendis nostrum repellendus inventore possimus rem, neque omnis impedit minus officiis cumque, ipsam alias tempore hic nesciunt.</p>
+
+                                        <div id="services-02-btn">
+                                            <a class="btn btn-general btn-yellow" href="#services" title="Get In Tuch" role="button">Get In Tuch</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- service Tab 04 -->
+                    <div id="service-tab-4" class="service-tab">
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="img/services/service-tab-img-04.jpg" class="img-responsive" alt="Development">
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="tab-bg">
+                                        <h2>04</h2>
+                                        <h3>From Our Development To Yours.</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, voluptate quidem quisquam, necessitatibus perferendis nostrum repellendus inventore possimus rem, neque omnis impedit minus officiis cumque, ipsam alias tempore hic nesciunt.</p>
+
+                                        <div id="services-02-btn">
+                                            <a class="btn btn-general btn-yellow" href="#services" title="Get In Tuch" role="button">Get In Tuch</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service tab 02 Ends -->
+
+    </section>
+    <!-- Service Ends -->
+
+    <!-- Portfolio -->
+    <section id="portfolio">
+
+        <div class="content-box-md">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <div class="vertical-heading">
+                            <h5>Find Out Work</h5>
+                            <h2>Our<br>Amazing<strong>Work</strong></h2>
+                        </div>
+                        
+                        <div class="col-md-12">
+                            
+                            <!-- Portofolio Items Filters -->
+                            <div id="isotope-filters">
+                               
+                                <button class="btn active" data-filter="*"><span>All</span></button>
+                                <button class="btn" data-filter=".logo"><span>Logo</span></button>
+                                <button class="btn" data-filter=".web"><span>Web</span></button>
+                                <button class="btn" data-filter=".mobile"><span>Mobile</span></button>
+                                <button class="btn" data-filter=".desktop"><span>Desktop</span></button>
+                        
+                            </div>
+                            
+                        </div>
+
+                    </div>
+
+                </div>
+                
+            </div>
+
+            <!-- Portfolio Item Wrapper -->
+            <section id="portfolio-wrapper">
+
+                <div class="container-fluid">
+
+                    <div class="row no-gutters">
+
+                        <div id="isotope-container">
+
+                            <div class="col-md-3 desktop">
+                                <!-- portfolio Item 01 -->
+                                <div class="portfolio-item">
+                                    <a href="img/portfolio/001.jpg" title="Add Description">
+                                        <img src="img/portfolio/001.jpg" class="img-responsive" alt="protfolio-01">
+                                        
+                                        <div class="portfolio-item-overlay">
+                                            <div class="portfolio-item-details text-center">
+
+                                                <!-- Item Header -->
+                                                <h3>Logo</h3>
+
+                                                <!-- Item Strips -->
+                                                <span></span>
+
+                                                <!-- Item Description -->
+                                                <p>Desktop, Design</p>
+
+                                            </div>
+                                        </div>
+                                        
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 web">
+                                <!-- portfolio Item 02 -->
+                                <div class="portfolio-item">
+                                    <a href="img/portfolio/002.jpg" title="Add Description">
+                                        <img src="img/portfolio/002.jpg" class="img-responsive" alt="protfolio-02">
+                                        <div class="portfolio-item-overlay">
+                                            <div class="portfolio-item-details text-center">
+
+                                                <!-- Item Header -->
+                                                <h3>Photoshop</h3>
+
+                                                <!-- Item Strips -->
+                                                <span></span>
+
+                                                <!-- Item Description -->
+                                                <p>Web Design, Illustration</p>
+
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 web mobile logo">
+                                <!-- portfolio Item 03 -->
+                                <div class="portfolio-item">
+                                    <a href="img/portfolio/003.jpg" title="Add Description">
+                                        <img src="img/portfolio/003.jpg" class="img-responsive" alt="protfolio-03">
+                                        <div class="portfolio-item-overlay">
+                                            <div class="portfolio-item-details text-center">
+
+                                                <!-- Item Header -->
+                                                <h3>Web Design</h3>
+
+                                                <!-- Item Strips -->
+                                                <span></span>
+
+                                                <!-- Item Description -->
+                                                <p>Video, Web</p>
+
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 logo web">
+                                <!-- portfolio Item 04 -->
+                                <div class="portfolio-item">
+                                    <a href="img/portfolio/004.jpg" title="Add Description">
+                                        <img src="img/portfolio/004.jpg" class="img-responsive" alt="protfolio-04">
+                                        <div class="portfolio-item-overlay">
+                                            <div class="portfolio-item-details text-center">
+
+                                                <!-- Item Header -->
+                                                <h3>Logo</h3>
+
+                                                <!-- Item Strips -->
+                                                <span></span>
+
+                                                <!-- Item Description -->
+                                                <p>Desktop, Design</p>
+
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 web">
+                                <!-- portfolio Item 05 -->
+                                <div class="portfolio-item">
+                                    <a href="img/portfolio/005.jpg" title="Add Description">
+                                        <img src="img/portfolio/005.jpg" class="img-responsive" alt="protfolio-05">
+                                        <div class="portfolio-item-overlay">
+                                            <div class="portfolio-item-details text-center">
+
+                                                <!-- Item Header -->
+                                                <h3>Photoshop</h3>
+
+                                                <!-- Item Strips -->
+                                                <span></span>
+
+                                                <!-- Item Description -->
+                                                <p>Web Design, Illustration</p>
+
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 logo desktop">
+                                <!-- portfolio Item 06 -->
+                                <div class="portfolio-item">
+                                    <a href="img/portfolio/006.jpg" title="Add Description">
+                                        <img src="img/portfolio/006.jpg" class="img-responsive" alt="protfolio-06">
+                                        <div class="portfolio-item-overlay">
+                                            <div class="portfolio-item-details text-center">
+
+                                                <!-- Item Header -->
+                                                <h3>Logo</h3>
+
+                                                <!-- Item Strips -->
+                                                <span></span>
+
+                                                <!-- Item Description -->
+                                                <p>Desktop, Design</p>
+
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 web mobile">
+                                <!-- portfolio Item 07 -->
+                                <div class="portfolio-item">
+                                    <a href="img/portfolio/007.jpg" title="Add Description">
+                                        <img src="img/portfolio/007.jpg" class="img-responsive" alt="protfolio-07">
+                                        <div class="portfolio-item-overlay">
+                                            <div class="portfolio-item-details text-center">
+
+                                                <!-- Item Header -->
+                                                <h3>Photoshop</h3>
+
+                                                <!-- Item Strips -->
+                                                <span></span>
+
+                                                <!-- Item Description -->
+                                                <p>Web Design, Illustration</p>
+
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 web mobile">
+                                <!-- portfolio Item 08 -->
+                                <div class="portfolio-item">
+                                    <a href="img/portfolio/008.jpg" title="Add Description">
+                                        <img src="img/portfolio/008.jpg" class="img-responsive" alt="protfolio-08">
+                                        <div class="portfolio-item-overlay">
+                                            <div class="portfolio-item-details text-center">
+
+                                                <!-- Item Header -->
+                                                <h3>Mobile Design</h3>
+
+                                                <!-- Item Strips -->
+                                                <span></span>
+
+                                                <!-- Item Description -->
+                                                <p>Video, Web</p>
+
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
+
+    </section>
+    <!-- Portfolio Ends -->
+
+
+
+
+
+
+
+
+
+
+    <!-- Temporary Space -->
+    <section><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></section>
+
+    <!-- Jquery   -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Js -->
+    <script src="js/bootstrap/bootstrap.js"></script>
+
+    <!-- Owl-carousel Js -->
+    <script src="js/owl-carousel/owl.carousel.min.js"></script>
+
+    <!-- Waypoints -->
+    <script src="js/waypoints/jquery.waypoints.min.js"></script>
+
+    <!-- Responsive Tabs -->
+    <script src="js/responsive-tabs/jquery.responsiveTabs.min.js"></script>
+
+    <!-- Isotope -->
+    <script src="js/isotope/isotope.pkgd.min.js"></script>
+    
+    <!-- Magnific Popup -->
+    <script src="js/megnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom Js -->
+    <script src="js/script.js"></script>
+</body></html>
