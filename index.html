@@ -33,20 +33,82 @@
 
     <!-- Megnific Popup -->
     <link rel="stylesheet" href="css/megnific-popup/magnific-popup.css">
+    
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="css/animate/animate.css">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="65">
 
 
     <!-- Preloader  -->
     <div id="preloader">
         <div id="status">&nbsp;</div>
     </div>
+
+    <!-- Header   -->
+    <header>
+        <nav class="navbar navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="site-nav-wrapper">
+
+                    <div class="navbar-header">
+
+                        <!-- Mobile menu Open Button -->
+                        <span id="mobile-nav-open-btn">&#9776;</span>
+
+                        <!-- logo -->
+                        <a href="#home" class="navbar-brand smooth-scroll">
+                            <img src="img/logo/logo.png" alt="logo">
+                        </a>
+                    </div>
+
+                    <!-- Main Menu -->
+                    <div class="container">
+                        <div class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav pull-right">
+                                <li><a class="smooth-scroll" href="#home">Home</a></li>
+                                <li><a class="smooth-scroll" href="#about">About</a></li>
+                                <li><a class="smooth-scroll" href="#team">Team</a></li>
+                                <li><a class="smooth-scroll" href="#services">Services</a></li>
+                                <li><a class="smooth-scroll" href="#portfolio">Work</a></li>
+                                <li><a class="smooth-scroll" href="#blog">Blog</a></li>
+                                <li><a class="smooth-scroll" href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Main Menu -->
+                    <div id="mobile-nav">
+
+                        <!-- Mobile menu Close Button -->
+                        <span id="mobile-nav-close-btn">&times;</span>
+
+                        <div id="mobile-nav-content">
+                            <ul class="nav">
+                                <li><a class="smooth-scroll" href="#home">Home</a></li>
+                                <li><a class="smooth-scroll" href="#about">About</a></li>
+                                <li><a class="smooth-scroll" href="#team">Team</a></li>
+                                <li><a class="smooth-scroll" href="#services">Services</a></li>
+                                <li><a class="smooth-scroll" href="#portfolio">Work</a></li>
+                                <li><a class="smooth-scroll" href="#blog">Blog</a></li>
+                                <li><a class="smooth-scroll" href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header End -->
 
     <!-- Home -->
     <section id="home">
@@ -76,7 +138,7 @@
                 </div>
 
                 <div id="home-btn">
-                    <a class="btn btn-general btn-home" href="#about" title="Start Now" role="button">Start Now</a>
+                    <a class="btn btn-general btn-home smooth-scroll" href="#about" title="Start Now" role="button">Start Now</a>
                 </div>
 
             </div>
@@ -84,7 +146,7 @@
         </div>
 
         <!-- Arrow Down -->
-        <a href="#about" id="arrow-down">
+        <a href="#about" id="arrow-down" class="smooth-scroll">
             <i class="fa fa-angle-down"></i>
         </a>
 
@@ -103,8 +165,8 @@
 
                     <div class="row">
 
-                        <!-- About Left -->
-                        <div class="col-md-6">
+                        <!-- About Left Side -->
+                        <div class="col-md-6 col-sm-6">
 
                             <div id="about-left">
                                 <div class="vertical-heading">
@@ -115,8 +177,8 @@
 
                         </div>
 
-                        <!-- About Right -->
-                        <div class="col-md-6">
+                        <!-- About Right Side -->
+                        <div class="col-md-6 col-sm-6">
 
                             <div id="about-right">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores impedit itaque, consectetur beatae quis! Aperiam mollitia ipsum ab. Veritatis quisquam soluta consectetur obcaecati dolorum illum sint quod unde consequuntur dolores.</p>
@@ -154,7 +216,7 @@
 
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-4">
 
                             <div class="about-item text-center">
                                 <i class="fa fa-rocket"></i>
@@ -165,7 +227,7 @@
 
                         </div>
 
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-4">
                             <div class="about-item text-center">
                                 <i class="fa fa-eye"></i>
                                 <h3>Vision</h3>
@@ -174,7 +236,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-4">
                             <div class="about-item text-center">
                                 <i class="fa fa-pencil"></i>
                                 <h3>Passion</h3>
@@ -205,22 +267,23 @@
                 <div class="row">
 
                     <!-- Team Left Side -->
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-sm-6">
 
                         <div id="team-left">
 
                             <div class="vertical-heading">
                                 <h5>Who We Are</h5>
                                 <h2>Meet Our<br> <strong>Talented</strong>Team</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sit veritatis, delectus nostrum esse ut culpa at nisi modi quos sapiente alias natus quam odio tempore dolore, laborum, neque minima!</p>
                             </div>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sit veritatis, delectus nostrum esse ut culpa at nisi modi quos sapiente alias natus quam odio tempore dolore, laborum, neque minima!</p>
 
                         </div>
 
                     </div>
 
                     <!-- Team Right Side -->
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-sm-6">
 
                         <div id="team-members" class="owl-carousel owl-theme">
 
@@ -325,7 +388,7 @@
                     <!-- Progress Bars -->
                     <div class="row">
 
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-6">
                             <!-- Skill 01 -->
                             <div class="skill">
                                 <h4>Web Design</h4>
@@ -336,7 +399,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-6">
                             <!-- Skill 02 -->
                             <div class="skill">
                                 <h4>Photoshop/Illustration</h4>
@@ -347,7 +410,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-6">
                             <!-- Skill 01 -->
                             <div class="skill">
                                 <h4>Web Development</h4>
@@ -358,7 +421,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-6">
                             <!-- Skill 01 -->
                             <div class="skill">
                                 <h4>Digital Marketing</h4>
@@ -412,7 +475,7 @@
 
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-12 text-center">
                             <div class="horizontal-heading text-center">
                                 <h5>What We Do</h5>
                                 <h2>Our Services</h2>
@@ -420,53 +483,53 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-7">
+                        <div class="col-md-7 col-sm-7">
                             <img src="img/services/laptop-lamp.png" alt="laptop" class="img-responsive">
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-md-5 col-sm-5">
 
                             <!-- Service 01 -->
                             <div class="service">
                                 <div class="row">
-                                    <div class="col-md-2">
+                                    <div class="col-md-2 col-sm-2">
                                         <div class="icon text-right">
                                             <i class="fa fa-paint-brush"></i>
                                         </div>
                                     </div>
-                                    <div class="col-md-10">
-                                        <h5>Srvice 01</h5>
+                                    <div class="col-md-10 col-sm-10">
+                                        <h5>Service 01</h5>
                                         <h4>Web Design</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ipsam iusto odio? Debitis esse quia assumenda uia assumenda.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ipsam iusto odio? Debitis esse quia assumenda uia assumenda esse quia assumenda uia assumenda.</p>
                                     </div>
                                 </div>
                             </div>
                             <!-- Service 02 -->
                             <div class="service">
                                 <div class="row">
-                                    <div class="col-md-2">
+                                    <div class="col-md-2 col-sm-2">
                                         <div class="icon text-right">
                                             <i class="fa fa-laptop"></i>
                                         </div>
                                     </div>
-                                    <div class="col-md-10">
-                                        <h5>Srvice 02</h5>
+                                    <div class="col-md-10 col-sm-10">
+                                        <h5>Service 02</h5>
                                         <h4>Web Development</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ipsam iusto odio? Debitis esse quia assumenda uia assumenda.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ipsam iusto odio? Debitis esse quia assumenda uia assumenda esse quia assumenda uia assumenda.</p>
                                     </div>
                                 </div>
                             </div>
                             <!-- Service 03 -->
                             <div class="service">
                                 <div class="row">
-                                    <div class="col-md-2">
+                                    <div class="col-md-2 col-sm-2">
                                         <div class="icon text-right">
                                             <i class="fa fa-paper-plane-o"></i>
                                         </div>
                                     </div>
-                                    <div class="col-md-10">
-                                        <h5>Srvice 03</h5>
+                                    <div class="col-md-10 col-sm-10">
+                                        <h5>Service 03</h5>
                                         <h4>Digital Marketing</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ipsam iusto odio? Debitis esse quia assumenda uia assumenda.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda ipsam iusto odio? Debitis esse quia assumenda uia assumenda esse quia assumenda uia assumenda.</p>
                                     </div>
                                 </div>
                             </div>
@@ -502,7 +565,7 @@
                                     <div class="tab-bg">
                                         <h2>01</h2>
                                         <h3>Get More From Life With Creativity.</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, voluptate quidem quisquam, necessitatibus perferendis nostrum repellendus inventore possimus rem, neque omnis impedit minus officiis cumque, ipsam alias tempore hic nesciunt.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, voluptate quidem quisquam, necessitatibus perferendis nostrum repellendus inventore possimus rem, neque omnis impedit minus officiis cumque, ipsam alias tempore hic nesciunt officiis cumque, ipsam alias tempore hic nesciunt..</p>
 
                                         <div id="services-02-btn">
                                             <a class="btn btn-general btn-yellow" href="#services" title="Get In Tuch" role="button">Get In Tuch</a>
@@ -527,7 +590,7 @@
                                     <div class="tab-bg">
                                         <h2>02</h2>
                                         <h3>The Home Of Strategy.</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, voluptate quidem quisquam, necessitatibus perferendis nostrum repellendus inventore possimus rem, neque omnis impedit minus officiis cumque, ipsam alias tempore hic nesciunt.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, voluptate quidem quisquam, necessitatibus perferendis nostrum repellendus inventore possimus rem, neque omnis impedit minus officiis officiis cumque, ipsam alias tempore hic nesciunt. cumque, ipsam alias tempore hic nesciunt.</p>
 
                                         <div id="services-02-btn">
                                             <a class="btn btn-general btn-yellow" href="#services" title="Get In Tuch" role="button">Get In Tuch</a>
@@ -552,7 +615,7 @@
                                     <div class="tab-bg">
                                         <h2>03</h2>
                                         <h3>Design To Play It Safe.</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, voluptate quidem quisquam, necessitatibus perferendis nostrum repellendus inventore possimus rem, neque omnis impedit minus officiis cumque, ipsam alias tempore hic nesciunt.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, voluptate quidem quisquam, necessitatibus perferendis nostrum repellendus inventore possimus rem, neque omnis impedit minus officiis cumque, ipsam alias tempore hic nesciunt officiis cumque, ipsam alias tempore hic nesciunt..</p>
 
                                         <div id="services-02-btn">
                                             <a class="btn btn-general btn-yellow" href="#services" title="Get In Tuch" role="button">Get In Tuch</a>
@@ -577,7 +640,7 @@
                                     <div class="tab-bg">
                                         <h2>04</h2>
                                         <h3>From Our Development To Yours.</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, voluptate quidem quisquam, necessitatibus perferendis nostrum repellendus inventore possimus rem, neque omnis impedit minus officiis cumque, ipsam alias tempore hic nesciunt.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, voluptate quidem quisquam, necessitatibus perferendis nostrum repellendus inventore possimus rem, neque omnis impedit minus officiis officiis cumque, ipsam alias tempore hic nesciunt. cumque, ipsam alias tempore hic nesciunt.</p>
 
                                         <div id="services-02-btn">
                                             <a class="btn btn-general btn-yellow" href="#services" title="Get In Tuch" role="button">Get In Tuch</a>
@@ -643,7 +706,7 @@
 
                         <div id="isotope-container">
 
-                            <div class="col-md-3 desktop">
+                            <div class="col-md-3 col-sm-6 col-xs-12 desktop">
                                 <!-- portfolio Item 01 -->
                                 <div class="portfolio-item">
                                     <a href="img/portfolio/001.jpg" title="Add Description">
@@ -668,7 +731,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-3 web">
+                            <div class="col-md-3 col-sm-6 col-xs-12 web">
                                 <!-- portfolio Item 02 -->
                                 <div class="portfolio-item">
                                     <a href="img/portfolio/002.jpg" title="Add Description">
@@ -691,7 +754,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-3 web mobile logo">
+                            <div class="col-md-3 col-sm-6 col-xs-12 web mobile logo">
                                 <!-- portfolio Item 03 -->
                                 <div class="portfolio-item">
                                     <a href="img/portfolio/003.jpg" title="Add Description">
@@ -714,7 +777,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-3 logo web">
+                            <div class="col-md-3 col-sm-6 col-xs-12 logo web">
                                 <!-- portfolio Item 04 -->
                                 <div class="portfolio-item">
                                     <a href="img/portfolio/004.jpg" title="Add Description">
@@ -737,7 +800,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-3 web">
+                            <div class="col-md-3 col-sm-6 col-xs-12 web">
                                 <!-- portfolio Item 05 -->
                                 <div class="portfolio-item">
                                     <a href="img/portfolio/005.jpg" title="Add Description">
@@ -760,7 +823,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-3 logo desktop">
+                            <div class="col-md-3 col-sm-6 col-xs-12 logo desktop">
                                 <!-- portfolio Item 06 -->
                                 <div class="portfolio-item">
                                     <a href="img/portfolio/006.jpg" title="Add Description">
@@ -783,7 +846,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-3 web mobile">
+                            <div class="col-md-3 col-sm-6 col-xs-12 web mobile">
                                 <!-- portfolio Item 07 -->
                                 <div class="portfolio-item">
                                     <a href="img/portfolio/007.jpg" title="Add Description">
@@ -806,7 +869,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-3 web mobile">
+                            <div class="col-md-3 col-sm-6 col-xs-12 web mobile">
                                 <!-- portfolio Item 08 -->
                                 <div class="portfolio-item">
                                     <a href="img/portfolio/008.jpg" title="Add Description">
@@ -842,11 +905,665 @@
     </section>
     <!-- Portfolio Ends -->
 
+    <!-- Testimonials -->
+    <section id="testimonials">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-4 col-sm-4">
+
+                    <div class="vertical-heading">
+                        <h5>Who We Are</h5>
+                        <h2>What Our<br><strong>Customers </strong>Say</h2>
+                    </div>
+
+                </div>
+
+                <div class="col-md-8 col-sm-8">
+
+                    <div id="testimonial-slider" class="owl-carousel owl-theme">
+
+                        <!-- Testimonial 01 -->
+                        <div class="testimonial">
+
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <h3>Quality Support</h3>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <div class="stars text-right">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo dolores culpa minima illum aut, magni at ipsa quibusdam consequatur, deserunt dignissimos minus, a laudantium laborum dicta? Labore magni unde, optio.</p>
+
+                            <div class="author">
+
+                                <div class="row">
+                                    <div class="col-md-2 col-sm-3 col-xs-6">
+                                        <img src="img/testimonial/client-1.jpg" alt="client" class="img-responsive img-circle">
+                                    </div>
+                                    <div class="col-md-10 col-sm-3 col-xs-6">
+                                        <div class="author-name-des">
+                                            <p>Joq martin</p>
+                                            <p>Senior Developer</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Testimonial 02 -->
+                        <div class="testimonial">
+
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <h3>Quality Support</h3>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <div class="stars text-right">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo dolores culpa minima illum aut, magni at ipsa quibusdam consequatur, deserunt dignissimos minus, a laudantium laborum dicta? Labore magni unde, optio.</p>
+
+                            <div class="author">
+
+                                <div class="row">
+                                    <div class="col-md-2 col-sm-3 col-xs-6">
+                                        <img src="img/testimonial/client-2.jpg" alt="client" class="img-responsive img-circle">
+                                    </div>
+                                    <div class="col-md-10 col-sm-3 col-xs-6">
+                                        <div class="author-name-des">
+                                            <p>Joq martin</p>
+                                            <p>Senior Developer</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Testimonial 03 -->
+                        <div class="testimonial">
+
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <h3>Quality Support</h3>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <div class="stars text-right">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo dolores culpa minima illum aut, magni at ipsa quibusdam consequatur, deserunt dignissimos minus, a laudantium laborum dicta? Labore magni unde, optio.</p>
+
+                            <div class="author">
+
+                                <div class="row">
+                                    <div class="col-md-2 col-sm-3 col-xs-6">
+                                        <img src="img/testimonial/client-3.jpg" alt="client" class="img-responsive img-circle">
+                                    </div>
+                                    <div class="col-md-10 col-sm-3 col-xs-6">
+                                        <div class="author-name-des">
+                                            <p>Joq martin</p>
+                                            <p>Senior Developer</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
 
 
+    </section>
+    <!-- Testimonials Ends  -->
 
-    <!-- Temporary Space -->
-    <section><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></section>
+    <!-- Pricing -->
+    <section id="pricing">
+
+        <div class="content-box-md">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-12 text-center">
+                        <div class="horizontal-heading">
+                            <h5>Lovely Customers</h5>
+                            <h2>Our Pricing </h2>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-4 col-sm-4">
+
+                        <!-- Pricing Table 01 -->
+                        <div class="pricing-table">
+                            <div class="type">
+                                <h4>Basic</h4>
+                            </div>
+
+                            <div class="price">
+
+                                <div class="row">
+
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <h2><span class="dollar">&#36;</span>29<br><span class="month">Month</span></h2>
+                                    </div>
+                                    <div class="col-md-8 col-sm-8 col-xs-8">
+                                        <p>You Will get these awesome servicers with this great price, get it now!</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <ul class="package">
+                                <li><i class="fa fa-check"></i>Full access</li>
+                                <li><i class="fa fa-check"></i>Unlimited Bandwidth</li>
+                                <li><i class="fa fa-check"></i>Power Full Admin Panel</li>
+                                <li><i class="fa fa-check"></i>Email Accounts</li>
+                                <li><i class="fa fa-check"></i>10 Free Web Sites</li>
+                            </ul>
+
+                            <div id="pricing-btn">
+                                <a class="btn btn-general btn-yellow" href="#" title="Get Started" role="button">Get Started</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+
+                        <!-- Pricing Table 02 -->
+                        <div class="pricing-table black">
+                            <div class="type">
+                                <h4>Unlimited</h4>
+                            </div>
+
+                            <div class="price">
+
+                                <div class="row">
+
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <h2><span class="dollar">&#36;</span>57<br><span class="month">Month</span></h2>
+                                    </div>
+                                    <div class="col-md-8 col-sm-8 col-xs-8">
+                                        <p>You Will get these awesome servicers with this great price, get it now!</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <ul class="package">
+                                <li><i class="fa fa-check"></i>Full access</li>
+                                <li><i class="fa fa-check"></i>Unlimited Bandwidth</li>
+                                <li><i class="fa fa-check"></i>Power Full Admin Panel</li>
+                                <li><i class="fa fa-check"></i>Email Accounts</li>
+                                <li><i class="fa fa-check"></i>10 Free Web Sites</li>
+                            </ul>
+
+                            <div id="pricing-btn">
+                                <a class="btn btn-general btn-white" href="#" title="Get Started" role="button">Get Started</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+
+                        <!-- Pricing Table 03 -->
+                        <div class="pricing-table">
+                            <div class="type">
+                                <h4>Professional</h4>
+                            </div>
+
+                            <div class="price">
+
+                                <div class="row">
+
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <h2><span class="dollar">&#36;</span>96<br><span class="month">Month</span></h2>
+                                    </div>
+                                    <div class="col-md-8 col-sm-8 col-xs-8">
+                                        <p>You Will get these awesome servicers with this great price, get it now!</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <ul class="package">
+                                <li><i class="fa fa-check"></i>Full access</li>
+                                <li><i class="fa fa-check"></i>Unlimited Bandwidth</li>
+                                <li><i class="fa fa-check"></i>Power Full Admin Panel</li>
+                                <li><i class="fa fa-check"></i>Email Accounts</li>
+                                <li><i class="fa fa-check"></i>10 Free Web Sites</li>
+                            </ul>
+
+                            <div id="pricing-btn">
+                                <a class="btn btn-general btn-yellow" href="#" title="Get Started" role="button">Get Started</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Pricing End -->
+
+    <!-- Stats -->
+    <section id="stats">
+
+        <div class="content-box-md">
+
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <div class="vertical-heading">
+                            <h5>Fun Facts</h5>
+                            <h2>We Deliver<br><strong>Excellent </strong>Services</h2>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-6">
+
+                        <!-- State Item 01 -->
+                        <div class="stats-item text-center">
+                            <i class="fa fa-bar-chart"></i>
+                            <h3 class="counter">25</h3>
+                            <p>Years Experience</p>
+                        </div>
+
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-6">
+
+                        <!-- State Item 02 -->
+                        <div class="stats-item text-center">
+                            <i class="fa fa-codepen"></i>
+                            <h3 class="counter">476</h3>
+                            <p>Projects Done</p>
+                        </div>
+
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-6">
+
+                        <!-- State Item 03 -->
+                        <div class="stats-item text-center">
+                            <i class="fa fa-trophy"></i>
+                            <h3 class="counter">115</h3>
+                            <p>Awards Received</p>
+                        </div>
+
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-6">
+
+                        <!-- State Item 04 -->
+                        <div class="stats-item text-center">
+                            <i class="fa fa-users"></i>
+                            <h3 class="counter">276</h3>
+                            <p>Happy Clients</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Stats End -->
+
+    <!-- Clients -->
+    <section id="clients">
+
+        <div class="content-box-sm">
+
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="horizontal-heading">
+                            <h5>Satisfied Clients</h5>
+                            <h2>Our Happy <strong>Clients</strong></h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="clients-list" class="owl-carousel owl-theme">
+
+                            <!-- Client 01 -->
+                            <div class="client">
+                                <img src="img/client/client-1.png" class="img-responsive" alt="Client">
+                            </div>
+                            <!-- Client 02 -->
+                            <div class="client">
+                                <img src="img/client/client-2.png" class="img-responsive" alt="Client">
+                            </div>
+                            <!-- Client 03 -->
+                            <div class="client">
+                                <img src="img/client/client-3.png" class="img-responsive" alt="Client">
+                            </div>
+                            <!-- Client 04 -->
+                            <div class="client">
+                                <img src="img/client/client-4.png" class="img-responsive" alt="Client">
+                            </div>
+                            <!-- Client 05 -->
+                            <div class="client">
+                                <img src="img/client/client-5.png" class="img-responsive" alt="Client">
+                            </div>
+                            <!-- Client 06 -->
+                            <div class="client">
+                                <img src="img/client/client-6.png" class="img-responsive" alt="Client">
+                            </div>
+                            <!-- Client 07 -->
+                            <div class="client">
+                                <img src="img/client/client-7.png" class="img-responsive" alt="Client">
+                            </div>
+                            <!-- Client 08 -->
+                            <div class="client">
+                                <img src="img/client/client-8.png" class="img-responsive" alt="Client">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Clients End -->
+
+    <!-- Blog -->
+    <section id="blog">
+
+        <div class="content-box-md">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-5 col-sm-4">
+
+                        <div id="blog-left">
+
+                            <div class="vertical-heading">
+                                <h5>Latest News</h5>
+                                <h2>Latest <br>From<strong>Blog</strong></h2>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, cupiditate. Quia, cumque illo esse voluptatum</p>
+                            <div id="blog-btn">
+                                <a class="btn btn-general btn-yellow" href="#" title="View all Post" role="button">View all Post</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-7 col-sm-8">
+
+                        <div class="row">
+
+                            <div class="col-md-6 col-sm-6">
+
+                                <!-- Blog Post 01 -->
+                                <div class="blog-post">
+
+                                    <h4>Your Post Title</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur voluptates</p>
+                                    <a href="#">Read More ></a>
+
+                                    <div class="post-meta">
+                                        <div class="row">
+
+                                            <div class="col-md-6 col-sm-8 col-xs-5">
+                                                <p><img src="img/blog/user-1.jpg" alt="author" class="img-circle">Daniel Watrous</p>
+                                            </div>
+                                            <div class="col-md-6 col-sm-4 col-xs-7">
+                                                <p class="text-right">October 02,2017</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+
+                                <!-- Blog Post 02 -->
+                                <div class="blog-post">
+
+                                    <h4>Your Post Title</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur voluptates</p>
+                                    <a href="#">Read More ></a>
+
+                                    <div class="post-meta">
+                                        <div class="row">
+
+                                            <div class="col-md-6 col-sm-8 col-xs-5">
+                                                <p><img src="img/blog/user-2.jpg" alt="author" class="img-circle">Janiel Watrous</p>
+                                            </div>
+                                            <div class="col-md-6 col-sm-4 col-xs-7">
+                                                <p class="text-right">November 15,2017</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Blog End -->
+
+    <!-- Contact -->
+    <section id="contact">
+
+        <div class="content-box-md">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-6">
+
+                        <!-- Contact Lift -->
+                        <div id="contact-left">
+
+                            <div class="vertical-heading">
+                                <h5>Who We Are</h5>
+                                <h2>Get<br>In <strong>Touch</strong></h2>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, dolores, ipsa ipsum quam amet quasi, natus sint provi</p>
+
+                            <div id="offices">
+                                <div class="row">
+
+                                    <div class="col-md-6">
+
+                                        <div class="office">
+                                            <h4>India</h4>
+                                            <ul class="office-details">
+                                                <li><i class="fa fa-mobile"></i>+(55) 123 45 67 89</li>
+                                                <li><i class="fa fa-envelope-o"></i>support@solo.com</li>
+                                                <li><i class="fa fa-map-marker"></i><span>524 ramnagar building 05<br>Bhavnagar, India.</span></li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-6">
+
+                                        <div class="office">
+                                            <h4>United States</h4>
+                                            <ul class="office-details">
+                                                <li><i class="fa fa-mobile"></i>+(91) 451 89 67 09</li>
+                                                <li><i class="fa fa-envelope-o"></i>support@solo.com</li>
+                                                <li><i class="fa fa-map-marker"></i><span>549 gopalnagar building 05<br>Botad, India.</span></li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <ul class="social-list">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-6">
+
+                        <!-- Contact Right -->
+                        <div id="contact-right">
+
+                            <form>
+
+                                <h4>Send Message</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti</p>
+
+                                <div class="row">
+
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" id="email" placeholder="Email Address">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="phone" placeholder="Phone No.">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="form-group">
+                                    <textarea class="form-control" id="message" placeholder="Message"></textarea>
+                                </div>
+
+                                <div id="submit-btn">
+                                    <a class="btn btn-general btn-yellow" href="#" title="Submit" role="button">Submit</a>
+                                </div>
+
+                            </form>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Contact End -->
+
+    <!-- Google Map -->
+    <section id="google-map">
+        <div class="container-fluid">
+            <div class="row">
+                <div id="map"></div>
+            </div>
+        </div>
+    </section>
+    <!-- Google Map End -->
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        Copyright &copy; 2020 All Rights Reserved By <span>Tatvasoft Pvt Ltd.</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Back To Top -->
+        <a href="#home" id="back-to-top" class="btn-btn-sm btn-yellow btn-back-to-top smooth-scroll hidden-sm hidden-xs" title="home" role="button">
+            <i class="fa fa-angle-up"></i>
+        </a>
+
+    </footer>
+    <!-- Footer End -->
+
+
 
     <!-- Jquery   -->
     <script src="js/jquery.js"></script>
@@ -869,8 +1586,18 @@
     <!-- Magnific Popup -->
     <script src="js/megnific-popup/jquery.magnific-popup.min.js"></script>
 
+    <!-- Counter -->
+    <script src="js/counter/jquery.counterup.min.js"></script>
+
+    <!-- Google Map JS -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkrBCW-wORhn0OAt0Ti4BfX9__jOoPxVo"></script>
+
+    <!-- Easing -->
+    <script src="js/easing/jquery.easing.1.3.js"></script>
+
     <!-- Custom Js -->
     <script src="js/script.js"></script>
+
 </body>
 
 </html>
