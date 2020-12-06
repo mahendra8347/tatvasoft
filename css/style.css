@@ -361,6 +361,12 @@ section {
     transition: all 400ms ease-in-out;
 }
 
+.about-item h3,
+.about-item p {
+    -webkit-transition: all 400ms linear;
+    transition: all 400ms linear;
+}
+
 /*===============================================
                     Team
 ===============================================*/
@@ -716,8 +722,7 @@ ul.social-list li:nth-child(3) a:hover {
     left: 0;
     right: 0;
     background: rgba(14, 14, 17, 0.9);
-    cursor: -webkit-zoom-in;
-    cursor: zoom-in;
+    cursor: pointer;
     opacity: 0;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
@@ -1244,4 +1249,42 @@ ul.navbar-nav > li > a:focus {
 .white-nav-top ul.navbar-nav > li.active > a {
     color: #f4c613;
     font-weight: 500;
+}
+
+/*===============================================
+                    Animation
+===============================================*/
+
+#home-heading-1,
+#home-heading-2,
+#home-text,
+#home-btn,
+#arrow-down i {
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+}
+
+#home-heading-1 {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+#home-heading-2 {
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+
+#home-text {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+#home-btn {
+    -webkit-animation-delay: 2.5s;
+    animation-delay: 2.5s;
+}
+
+#arrow-down i {
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
 }

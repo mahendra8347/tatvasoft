@@ -41,7 +41,7 @@ $(function () {
         $(".progress-bar").each(function () {
             $(this).animate({
                 width: $(this).attr("aria-valuenow") + "%"
-            }, 1300);
+            }, 2000);
         });
         this.destroy();
     }, {
@@ -281,5 +281,24 @@ $(function () {
     $("#mobile-nav-close-btn, #mobile-nav a").click(function () {
         $("#mobile-nav").css("height", "0%");
     });
+
+});
+
+/*===============================================
+                    Animation
+===============================================*/
+// Animate On Scroll
+$(function () {
+    new WOW().init();
+});
+
+// Home Animation On Page Load
+$(window).on('load', function () {
+
+    $("#home-heading-1").addClass("animated fadeInDown");
+    $("#home-heading-2").addClass("animated fadeInLeft");
+    $("#home-text").addClass("animated zoomIn");
+    $("#home-btn").addClass("animated zoomIn");
+    $("#arrow-down i").addClass("animated fadeInDown infinite");
 
 });
